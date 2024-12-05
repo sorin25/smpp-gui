@@ -20,7 +20,7 @@ A Windows Forms application for sending SMS messages using an SMPP gateway. This
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repository/smpp-gui.git
+   git clone https://github.com/sorin25/smpp-gui.git
    cd smpp-gui
    ```
 
@@ -54,7 +54,7 @@ A Windows Forms application for sending SMS messages using an SMPP gateway. This
 
 If using an installer:
 
-1. Download the `SMPPClientSetup.exe` file from the [Releases](https://github.com/your-repository/smpp-gui/releases) page.
+1. Download the `SMPPClientSetup.exe` file from the [Releases](https://github.com/sorin25/smpp-gui/releases) page.
 2. Run the installer and follow the on-screen instructions.
 3. Launch the application from the **Start Menu** or the installation directory.
 
@@ -81,7 +81,7 @@ If using an installer:
 
 ## License
 
-This project is licensed under the **Microsoft Reciprocal License (Ms-RL)**.
+This project is licensed under the [**Microsoft Reciprocal License (Ms-RL)**](https://opensource.org/license/ms-rl-html).
 You can view the full license text [here](LICENSE).
 
 ### JamaaSMPP Dependency
