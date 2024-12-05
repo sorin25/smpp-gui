@@ -1,0 +1,61 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.log
+*.vspscc
+*.vspx
+*.pdb
+*.ipch
+*.tlog
+*.lastbuildstate
+*.idb
+
+# NuGet Packages
+*.nupkg
+packages/
+.nuget/
+
+# Rider/JetBrains IDE
+.idea/
+*.iml
+
+# Inno Setup
+*.iss~      # Temporary backup files
+Output/     # Default output directory for Inno Setup
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+.Trashes
+
+# MacOS and Linux files
+*.swp
+*~
+.cache
+
+
+settings.db
+sms_log.txt
