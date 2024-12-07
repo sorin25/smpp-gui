@@ -53,3 +53,4 @@ jobs:
           tag: ${{ github.ref }}
           name: Release ${{ github.ref_name }}
           body: "Automated release for tag ${{ github.ref_name }}"
+          allowUpdates: true
