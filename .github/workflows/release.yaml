@@ -32,6 +32,7 @@ jobs:
         run: |
           mkdir SMPPClient_Portable
           Copy-Item -Path .\bin\Release\* -Destination SMPPClient_Portable -Recurse
+          Get-ChildItem -Path SMPPClient_Portable -Recurse -Filter *.pdb | Remove-Item -Force
 
       # Step 6: Create a ZIP file
       - name: Create ZIP package
